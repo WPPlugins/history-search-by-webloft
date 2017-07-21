@@ -1,0 +1,341 @@
+a {
+	border: none !important;
+}
+
+strong {
+	font-weight: bold;
+	}
+
+.lokalhistorie_skjema {
+	width: 98%;
+	margin: 20px 0px;
+	clear: both;
+	}
+
+.lokalhistorie_skjema input {
+	width: auto !important;
+	}
+
+.lokalhistorie_skjema h2 {
+	color: #000;
+	width: 100%;
+	font-size: 1.6em;
+	border-bottom: 3px solid orange;
+	margin-bottom: 10px;
+	text-align: center;
+	}
+
+.lokalhistorieresult {
+	padding: 10px 1%;
+	background: #eef;
+	margin-bottom: 15px;
+	width: 98%;
+	clear: both;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+	font-weight: 300;
+	}
+
+.lokalhistorieresult a {
+	color: #800;
+	text-decoration: none;
+}
+
+.leftside {
+	float: left;
+	display: table-cell;
+	}
+
+.rightside {
+	float: right;
+	display: table-cell;
+	}
+
+.resultatheader {
+	padding: 2px 5px;
+	background: #E1E1E1;
+	border-radius: 10px;
+	margin: 10px 0;
+	color: #333;
+	padding: 5px;
+	font-size: 1.2em;
+	font-weight: 300;
+}
+
+.resultatopen { /*class added to contents of 1st demo when they are open*/
+	background: yellow;
+}
+
+.clearfix:after {
+   content: " "; /* Older browser do not support empty content */
+   visibility: hidden;
+   display: block;
+   height: 0;
+   clear: both;
+}
+
+/* MASONRY (flislagt visning) */
+
+.grid {
+	width: 100%;
+	}
+
+#gridcontainer .grid-item { 
+	width: 32%;
+	margin-right: 1%;
+	margin-bottom: 5px;
+}
+
+#gridcontainer .grid-item a, a:visited, a:active, a:hover { 
+	color: #000;
+}
+
+#gridcontainer .grid-item img {
+	display: block;
+	border-radius: 0px;
+	width: 100%;
+}
+
+#gridcontainer { display: none; } 
+
+.gridinfotekst {
+	position: absolute;
+	top: 0px;
+	height: 100%;
+	overflow: auto;
+	line-height: 1.1em;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+	font-weight: 300;
+	opacity: 0;
+	background-color: #fff;
+	padding: 10px 3% 0px 3%;	
+	width: 100%;
+	font-size: 0.8em;
+}
+
+.gridinfotekst:hover {
+	opacity: 0.7;
+}
+
+.gridinfotekst h3 {
+	font-size: 18px !important;
+	font-weight: bold;
+	letter-spacing: -1px;
+	margin: 0 0 5px 0 !important;
+	padding: 0;
+}
+
+.gridinfotekst h4 {
+	font-size: 14px !important;
+	margin: 0 0 5px 0 !important;
+	}
+
+.gridheader {
+	margin: 0;
+	padding: 5px;
+	font-size: 1.2em;
+	line-height: 1.1em;
+}
+
+.defaultomslag {
+	text-align: center;
+	position: absolute;
+	top: 40px;
+	font-size: 1.2em;
+	letter-spacing: -1px;
+	line-height: 1em;
+	color: #333;
+	width: 100%;
+	}
+
+.wlroweven {
+	background-color: #ddd;
+}
+
+.wlrowodd {
+	background-color: #eee;
+}
+
+img.wlenkel-some {
+	height: 16px;
+	width: auto;
+	margin: 10px 10px 0 0;
+	display: inline !important;
+}
+
+img.wlutvidet-some {
+	height: 24px !important;
+	width: auto;
+	margin: 0;
+	margin-left: 5px;
+	display: inline !important;
+}
+
+.wlutvidet-beskrivelse a {
+	border: none !important;
+}
+
+.wlenkel-omslag {
+	float: left;
+	margin: 0px 2% 0px 0px;
+	width: 20%;
+}
+
+.wlenkel-beskrivelse {
+	float: right;
+	font-size: 14px;
+	width: 78%;
+}
+
+.wlutvidet-omslag {
+	float: left;
+	margin: 0px 2% 0px 0px;
+	width: 30%;
+}
+
+.wlutvidet-omslag img {
+	width: 100%;
+}
+
+.wlutvidet-beskrivelse {
+	font-size: 14px;
+	width: 100%;
+}
+
+.wlutvidet-beskrivelse h3, .wlenkel-beskrivelse h3 {
+	margin: 0 !important;
+	margin-bottom: 5px;
+	padding: 0;
+	line-height: 1em;
+	clear: none;
+}
+
+.wlutvidet-beskrivelse h4, .wlenkel-beskrivelse h4 {
+	margin: 0 0 8px 0 !important;
+	font-style: italic;
+	font-size: 0.8em;
+	clear: none;
+}
+
+.wlrowodd, .wlroweven {
+	width: 96%;
+	padding: 10px 2%;
+	line-height: 1.3em;
+	font-size: 14px;
+	position: relative;
+}
+
+.wlroweven a, .wlrowodd a {
+	text-decoration: none;
+}
+
+.wlrowodd {
+	background-color: #eee;
+}
+
+.wlroweven {
+	background-color: #ddd;
+}
+
+.oneitem {
+	position: relative;
+}
+
+.karusellcaption {
+    position:absolute; 
+ 	bottom:0px; 
+    left:0px;  
+    width:100%;
+	padding: 10px 3%;  
+	box-sizing: border-box;
+    background-color:black; 
+	line-height: 1em; 
+    font-size:0.9em;  
+    color:white;  
+    opacity:0.6; 
+    filter:alpha(opacity=60);
+}
+
+.karusellcaption h2 {
+	margin: 0;
+	padding: 0;
+	line-height: 1em;
+	color: #fff;
+	font-size: 16px;
+}
+
+table#wl-utvidet {
+	width: 100%;
+	border: none;
+}
+
+.wl-katalog-toolbar {
+	width: 99%;
+	padding: 0;
+	background-color: #fff;
+	margin-bottom: 15px;
+}
+
+.wl-katalog-toolbar-item {
+	float: left;
+	width: 24%;
+	margin-right: 1%;
+}
+
+.wl-katalog-toolbar-item-header {
+	border: 0;
+	font-weight: bold;
+	letter-spacing: 1px;
+	color: #06f;
+	width: 92%;
+	margin: 0 auto;
+}
+
+.wl-katalog-toolbar-item-body {
+	width: 100%;
+}
+
+select.wl-katalog-toolbar-item-body {
+	width: 100%;
+}
+
+.wl-katalog-toolbar-bottom {
+	width: 99%;
+	padding: 0;
+	background-color: #fff;
+	margin-top: 15px;
+}
+
+.wlspinner {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+    z-index:1234;
+}
+
+img#wlimg-spinner {
+	border: none;
+	box-shadow: none;
+/*
+	height: 25px;
+	width: 25px;
+*/
+	}
+
+button.rundknapp {
+	border-radius: 5px;
+	padding: 5px;
+	margin: 5px;
+}
+
+.wlsearchhighlight {
+/*	background-color: #ff9; GUL */
+	color: #d9350a;
+}
+
+a.wl-tiltoppen {
+	float: right;
+	margin-right: 40px;
+	text-decoration: none;
+	font-size: 0.8em;
+	font-weight: bold;
+}
